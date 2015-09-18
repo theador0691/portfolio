@@ -1,0 +1,128 @@
+* {}
+
+body {
+    postion: relative;
+    padding-top: 70px;
+}
+
+
+/*Navigation*/
+
+.navbar-default {
+    background-color: #0099FF ;
+    color: white;
+    padding: 15px;
+    border: 0px;
+}
+
+.nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nav-color a {
+    color: white;
+}
+
+#nav-color a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.active a {
+    color: red;
+    background-color: pink!important;
+    border-radius: 10%;
+}
+
+ul {
+    padding-right: 10%;
+}
+
+.logo {
+    color: red;
+}
+
+
+/*Hero Content*/
+
+.hero-content {
+    position: absolute;
+    bottom: 40%;
+}
+
+.heroImage {
+    min-height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    background: url(../img/5240523362_5efe4d14bd_o.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.introDivider {
+    border: 1px solid white;
+    width: 50%;
+}
+
+
+/*About me*/
+
+.aboutMe {
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.me {
+    border-radius: 100%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Portfolio*/
+
+.portfolio {
+    background: url(../img/index.jpg);
+}
+
+.construct {
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio_heading {
+    background-color: red;
+}
+
+
+/*Contact*/
+
+.contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+   
+}
+
+.co-xs-12 {
+    text-align: center;
+}
+
+
+/*Footer*/
+
+footer {
+    font-weight: 700;
+    padding-top: 10px;
+    background-color: #0099FF;
+}

@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    padding-top: 70px;
+}
+
+
+/*Fonts*/
+
+
+/*Fonts*/
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.6em;
+}
+
+
+/*Navigation*/
+
+.navbar-default {
+    background-color: #19A3FF;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+#nav-color a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#nav-color a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.active a {
+    background-color: black!important;
+    border-radius: 10%;
+}
+
+
+/*Hero content*/
+
+.hero {
+    min-height: 100%;
+    color: white;
+    position: relative;
+    width: 100%;
+    background: url(../img/5240523362_5efe4d14bd_o.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 10%;
+}
+
+
+/*Button for hero*/
+
+.btn-lg:hover {
+    background-color: #0036FF;
+}
+
+.btn-lg {
+    background-color: #0076FF;
+    color: white;
+}
+
+
+/*Introduction*/
+
+.intro h1 {
+    color: #a7a0a2;
+}
+
+#intro-text {
+    margin-top: 50px;
+}
+
+#intro-text p {
+    text-align: justify;
+    color: #a7a0a2;
+    margin-bottom: 100px;
+}
+
+.col-xs-12 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Location*/
+
+.location {
+    background-image: url(../img/home-office-336581_1280.jpg);
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+
+.location .heading {
+    margin-bottom: 50px;
+}
+
+.location .col-md-6 {
+    padding-top: 50px;
+}
+
+.col-md-6 p {
+    padding-left: 70px;
+}
+
+/*Services sections*/
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.services p {
+    vertical-align: middle;
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #a7a0a2;
+}
+
+
+/*End of services*/
+
+
+/*Portfolio*/
+
+
+.portfolio {
+    color: white;
+    background-color: #0066CC;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+
+.port-first-row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*Contact*/
+
+.contact {
+    color: black;
+    background-image: url(../img/macbook-336704_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+label {
+    color: white;
+}
+
+.contact-content {
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 100%;
+}
+/*CSS buttons*/
+.btn {
+    margin-left: 45%;
+}
+
+
+/*Footer*/
+
+
+.copyright {
+    
+}
+.twitter-follow-button{
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:30%;
+
+}
+
+/*Modals*/
+.modal-content{
+    color:black;
+}
+#ptfitness{
+    padding:10px;
+    width:100%;
+    height:70%;
+}
+
+/*Table*/
+th, td{
+    padding:10px;
+}
+table{
+    margin-top:20px;
+}
+
+/*Objects*/
+.image {
+    border:2px solid pink;
+    width:300px;
+    height:300px;
+    margin:5px;
+    display:inline-block;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.info {
+    display:inline-block;
+    color:#fff;
+    font-family:Futura;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:0.5em;
+    line-height:1.6;
+    position:absolute;
+    top:15%;
+    left:1%;
+}
+
+.proj-title {
+    font-weight:100;
+}
