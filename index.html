@@ -37,7 +37,7 @@
                 <nav class="navbar-collapse collapse">
                     <!--Nav bar used an ID to get the color white as ID is equal to 100!-->
                     <ul id="nav-color" class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#">Home</a>
+                        <li class="active"><a href="#frontPage">Home</a>
                         </li>
                         <li class=""><a href="#about">About</a>
                         </li>
@@ -52,7 +52,7 @@
                 </nav>
             </nav>
         </nav>
-        <section class="frontPage">
+        <section class="frontPage" id="frontPage">
             <div class="container hero img-responsive" data-stellar-background-ratio=".5">
                 <div class="row text-center">
                     <div class="col-xs-12 col-sm-12 col-md-12 hero-content">
@@ -120,47 +120,62 @@
                     </div>
                 </div>
                 <div class="row port-first-row">
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive " data-toggle="modal" data-target=".bs-example-modal-sm"><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive" data-toggle="ptfitness" data-placement="top" title="Check out PTFitness!"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3" data-toggle="modal" data-target=".project1"><img src="img/Project1.jpeg" class="img-responsive" data-toggle="project1" data-placement="top" title="Check out my first project!"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3" data-toggle="modal" data-target=".project2"><img src="img/Screen Shot 2015-09-19 at 15.02.18.jpeg" data-toggle"project2" data-placement="top" class="img-responsive" title="Check out my second project!"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3  "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3  "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
                 </div>
                 <div class="row port-second-row">
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 img-responsive"><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
                     <div class="col-xs-12 col-sm-6 col-md-3 "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
                     <div class="col-xs-12 col-sm-6 col-md-3 "><img src="img/under_construction_sign_work_computer_humor_funny_text_maintenance_wallpaper_website_web_4000x2870.jpg" class="img-responsive"></div>
                 </div>
             </div>
             <!--Modals-->
-            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+            <div class="modal fade bs-example-modal-sm project1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h1 class="text-center">Portfolio 1</h1>
+                            <h1 class="text-center">Portfolio item 1</h1>
                         </div>
 
                         <div class="modal-body">
-                            <iframe id="ptfitness" src="http://www.ptfitness.co.uk/"></iframe>
-                            <h3 class="text-center">PTfitness Website</h3>
-                            <p class="text-center">I created this!</p>
+                            <iframe id="project1" src="http://burser-goat-72626.bitballoon.com/"></iframe>
+                            <h3 class="text-center">The Great Outdoors</h3>
+                            <p class="text-center">This is an example of a one page layout. It is mobile responsive using media queries.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Modal for project 2 -->
+        <div class="modal fade bs-example-modal-sm project2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h1 class="text-center">Portfolio item 2</h1>
+                        </div>
+
+                        <div class="modal-body">
+                            <iframe id="project1" src="http://buyer-olga-80747.bitballoon.com/"></iframe>
+                            <h3 class="text-center">Sign up</h3>
+                            <p class="text-center">This is an example of a simple sign up page.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- End of Modals -->
+        <!-- Contact Section-->
         <section class="contact">
             <div class="container">
                 <div class="row contact-content">
                     <div class=" col-xs-12 col-sm-6 col-md-4 text-center">
                         <div id="map-canvas" style="height: 300px; width:300px;"></div>
-                            <!-- <iframe
-                                width="100%"
-                                height="70%"
-                                frameborder="0" style="border:0"
-                                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAE2V52O3rAvse05QTLA9sWgnwMboVjOGw&q=Friedelstraße+40,+12047+Berlin,+Germany">
-                            </iframe> -->
                         <div>
                         <h1 class="text-center">Contact Me!</h1>
                         <p>Call me: <a href="tel:1234">1234</a></p>
@@ -223,7 +238,7 @@
                                 js.src = p + '://platform.twitter.com/widgets.js';
                                 fjs.parentNode.insertBefore(js, fjs);
                             }
-                        }(document, 'script', 'twitter-wjs');
+                        }(document,'script', 'twitter-wjs');
                     </script>
                 </div>
             </div>
